@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Plus+Jakarta+Sans:wght@600&display=swap');
+
+.main_bg {
+    background-color: #fff;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+.section_spacing {
+    padding-top: 81px;
+}
+
+.navbar {
+    font-family: 'Lato', sans-serif;
+}
+
+.custom_jsp {
+    background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+    padding: 8px;
+    border-radius: 16px;
+    letter-spacing: 4px;
+    text-align: center !important;
+
+}
+
+.bg_gradient {
+    background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+    text-align: center;
+    width: fit-content;
+    padding: 8px;
+}
+
+.custom_text {
+    background: linear-gradient(358deg, #1e30f3 0%, #e21e80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    line-height: 1.5;
+
+}
+
+.resume_btn {
+    background-color: #1e30f3 !important;
+    color: white !important;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.project_btn {
+    border: 1px solid black !important;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.project_btn:hover {
+    background-color: #1e30f3;
+    color: white;
+    border: 0px;
+}
+
+.img_bg {
+    background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%) no-repeat;
+    max-height: 100%;
+    height: 400px;
+    width: 500px;
+    max-width: 100%;
+    border-radius: 5vw;
+}
+
+@media(max-width:425px) {
+    .img_bg {
+        height: 300px;
+    }
+
+    .custom_profile_img {
+        height: 350px !important;
+    }
+}
+
+
+
+.dot_size {
+    height: 120px;
+}
+
+.dot_position_1 {
+    height: 120px;
+    fill: white;
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+    right: 0;
+    top: 200px;
+}
+
+.dot_position_2 {
+    height: 120px;
+    fill: #1e30f3;
+    position: absolute;
+    /* bottom: 0px; */
+    left: -30px;
+    right: 0;
+    top: 240px;
+}
+
+.dot_position_2 {
+    height: 120px;
+    fill: #1e30f3;
+    position: absolute;
+    /* bottom: 0px; */
+    left: -30px;
+    right: 0;
+    top: 240px;
+}
+
+.dot_position_3 {
+    height: 120px;
+    fill: #fff;
+    position: absolute;
+    right: 10px;
+    top: 55px;
+}
+
+.dot_position_4 {
+    height: 120px;
+    fill: #1e30f3;
+    position: absolute;
+    right: -30px;
+    top: 90px;
+}
+
+.custom_profile_img {
+    position: absolute;
+    height: 460px;
+    min-height: 100%;
+    bottom: 0px;
+}
+
+.dot_1,
+.dot_2,
+.dot_3,
+.dot_4 {
+    position: relative;
+}
+
+@media(max-width:425px) {
+
+    .dot_2,
+    .dot_1,
+    .dot_3,
+    .dot_4 {
+        display: none;
+    }
+
+    .fa-tools,
+    .fa-code,
+    .fa-message {
+        font-size: 10px;
+        color: white;
+    }
+}
+
+h3 {
+    background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.about_bg {
+    background-color: aliceblue;
+    background-size: 100% 100%;
+}
+
+.fa-git-alt,
+.fa-linkedin,
+.fa-twitter {
+    font-size: 30px;
+    background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.box {
+    max-width: 190px;
+    height: 130px;
+    border-radius: 10px;
+    background-color: #ebf1ef;
+    padding-left: 14px;
+    padding-top: 10px;
+}
+
+.box_1 {
+    max-width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #ebf1ef;
+    padding-left: 12px;
+    padding-top: 10px;
+}
+
+.p_color {
+    color: #1e30f3;
+}
+
+.fa-tools,
+.fa-code,
+.fa-message {
+    font-size: 30px;
+    color: white;
+}
+
+
+
+
+.icon_bg {
+    max-width: 50px;
+    background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+    padding: 10px;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.icon_bg_contact {
+    max-width: 50px;
+    background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+    padding: 10px;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.box_skill {
+    height: 50px;
+    border-radius: 10px;
+    background-color: #ebf1ef;
+}
+
+.project_bg {
+    background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+    width: 100%;
+    height: auto;
+}
+
+.contact_btn:hover {
+    background-color: #fff;
+    color: black !important;
+}
+
+.contact_bg {
+    background-color: #ebf1ef;
+    width: 100%;
+    height: auto;
+}
