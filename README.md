@@ -1,4 +1,4 @@
 # JSP-Portfolio
-Hello coders, My self jenil pipaliya I create this portfolio for my sharping my skill on design and responsiveness. the best part of this portfolio is that whole website is animate with scroll, with the help of JavaScript plugin AOS - animate on scroll. This whole website is inspired by bootstrap theme and I created for practice. 
-I am sharing the link of theme website and it's absolutely free.
-https://startbootstrap.com/theme/personal.
+Hello, fellow coders! I'm Jenil Pipaliya. I created this portfolio to enhance my design and responsiveness skills. The standout feature of this portfolio is its use of scroll-triggered animations, achieved with the assistance of the JavaScript plugin AOS - Animate On Scroll.
+
+This entire website draws inspiration from a Bootstrap theme and was developed as a practice project. I'm sharing the link to the theme website, which is absolutely free. You can find it here: https://startbootstrap.com/theme/personal.
