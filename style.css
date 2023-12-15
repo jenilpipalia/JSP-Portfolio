@@ -178,7 +178,8 @@ h3 {
 
 .fa-git-alt,
 .fa-linkedin,
-.fa-twitter {
+.fa-twitter,
+.fa-square-dribbble {
     font-size: 30px;
     background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
     -webkit-background-clip: text;
@@ -195,12 +196,10 @@ h3 {
 }
 
 .box_1 {
-    max-width: 200px;
+    max-width: 250px;
     height: 150px;
     border-radius: 10px;
     background-color: #ebf1ef;
-    padding-left: 12px;
-    padding-top: 10px;
 }
 
 .p_color {
